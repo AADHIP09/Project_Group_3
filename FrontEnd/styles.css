@@ -1,0 +1,224 @@
+/* Place your CSS styles in this file */
+
+/* First Parent div - Main title header */
+body {
+  margin: 0px;
+  background: whitesmoke;
+}
+
+.mainHeader h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #405b79;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.mainHeader h1:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: whitesmoke;
+}
+.mainHeader h1:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  margin-top: 25px;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #b13b3b;
+}
+
+/* Second Parent div - graph list header Apex graph header (float) */
+.graphListTitle {
+float: left;
+background: #405b79;
+color: whitesmoke;
+width: 16.8%;
+padding: 1%;
+margin: 1%;
+text-align: center;
+border-radius: .3rem;
+font-family: "Raleway", sans-serif;
+}
+
+.apexGraphTitle {
+float: left;
+background: #405b79;
+color: whitesmoke;
+width: 75.2%;
+padding: 1%;
+margin: 1%;
+text-align: center;
+border-radius: .3rem;
+font-family: "Raleway", sans-serif;
+}
+
+.graphHeaderParent::after{
+content: "";
+display: block;
+clear: both;
+}
+
+
+/* Third Parent div - Graph list content and Graph itself (float) */
+.graphList {
+float: left;
+background: #405b79;
+color: whitesmoke;
+width: 16.8%;
+padding: 1%;
+margin: 1%;
+border-radius: .5rem;
+font-family: "Raleway", sans-serif;
+}
+
+#graph1 {
+background: rgb(233, 231, 223);
+color: #405b79;
+font-weight: 1000;
+border-radius: .5rem;
+text-align: center;
+}
+#graph2 {
+  background: rgb(233, 231, 223);
+  color: #405b79;
+  font-weight: 1000;
+  border-radius: .5rem;
+  text-align: center;
+}
+#graph3 {
+  background: rgb(233, 231, 223);
+  color: #405b79;
+  font-weight: 1000;
+  border-radius: .5rem;
+  text-align: center;
+}
+#graph4 {
+  background: rgb(233, 231, 223);
+  color: #405b79;
+  font-weight: 1000;
+  border-radius: .5rem;
+  text-align: center;
+}
+#graph5 {
+  background: rgb(233, 231, 223);
+  color: #405b79;
+  font-weight: 1000;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+#myChart3 {
+  float: left;
+  max-height: 650px;
+  width: 75.2%;
+  padding: 1%;
+  margin: 1%;
+}
+
+.graphContent::after{
+content: "";
+display: block;
+clear: both;
+}
+
+
+/* Fourth Parent div - Analytic list  and Analytic content header (float) */
+.analyticListTitle {
+float: left;
+background: #405b79;
+color: whitesmoke;
+width: 16.8%;
+padding: 1%;
+margin: 1%;
+text-align: center;
+border-radius: .5rem;
+font-family: "Raleway", sans-serif;
+}
+
+.analyticContentTitle {
+float: left;
+background: #405b79;
+color: whitesmoke;
+width: 75.2%;
+padding: 1%;
+margin: 1%;
+text-align: center;
+border-radius: .5rem;
+font-family: "Raleway", sans-serif;
+}
+
+.graphHeaderParent::after{
+content: "";
+display: block;
+clear: both;
+}
+
+/* Fifth Parent div - Analytic list  and Analytic content itself imported from JavaScript Analysis (float) */
+.analyticList {
+float: left;
+background: #405b79;
+color: whitesmoke;
+width: 16.8%;
+padding: 1%;
+margin: 1%;
+border-radius: .5rem;
+}
+#analytic1 {
+  background: rgb(233, 231, 223);
+  color: #405b79;
+  font-weight: 1000;
+  border-radius: .5rem;
+  text-align: center;
+}
+#analytic2 {
+  background: rgb(233, 231, 223);
+  color: #405b79;
+  font-weight: 1000;
+  border-radius: .5rem;
+  text-align: center;
+}
+#analytic3 {
+  background: rgb(233, 231, 223);
+  color: #405b79;
+  font-weight: 1000;
+  border-radius: .5rem;
+  text-align: center;
+}
+#analytic4 {
+  background: rgb(233, 231, 223);
+  color: #405b79;
+  font-weight: 1000;
+  border-radius: .5rem;
+  text-align: center;
+}
+#analytic5 {
+  background: rgb(233, 231, 223);
+  color: #405b79;
+  font-weight: 1000;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+#myChart3 {
+  float: left;
+  width: 75.2%;
+  padding: 1%;
+  margin: 1%;
+}
+
+.analyticInformation::after{
+content: "";
+display: block;
+clear: both;
+}

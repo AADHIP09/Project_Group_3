@@ -1,0 +1,68 @@
+<!doctype html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <!-- Load external CSS styles -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        
+        
+
+    </head>
+
+    <body>
+        <!-- First Parent div - Main title header-->
+        <div class="mainHeader"><h1>Top 250 Movies Analytics</h1></div>
+        
+        <!-- Second Parent div - graph list header Apex graph header (float)-->
+        <div class="graphHeaderParent">
+            <h2 class="graphListTitle">Graph List Title</h2>
+            <h2 class="apexGraphTitle">Apex vs. Chart</h2>
+        </div>
+
+        <!-- Third Parent div - Graph list content and Graph itself (float)-->
+        <div class="graphContent">
+            
+            <div class="graphList">
+                <p id="graph1">Graph 1</p><br>
+                <p id="graph2">Graph 2</p><br>
+                <p id="graph3">Graph 3</p><br>
+                <p id="graph4">Graph 4</p>
+            </div>
+
+            <div id="chart1"></div>
+
+        </div>
+
+        <!-- Fourth Parent div - Analytic list  and Analytic content header (float)-->
+        <div class="analyticHeaderParent">
+            <h2 class="analyticListTitle">Director List</h2>
+            <h2 class="analyticContentTitle">Radial by Directors</h2>
+        </div>
+
+         <!-- Fifth Parent div - Analytic list  and Analytic content itself imported from JavaScript Analysis (float)-->
+        <div class="analyticInformation">
+
+            <div class="analyticList">
+                <p id="analytic1">Analytic 1</p><br>
+                <p id="analytic2">Analytic 2</p><br>
+                <p id="analytic3">Analytic 3</p><br>
+                <p id="analytic4">Analytic 4</p><br>
+                <p id="analytic5">Analytic 5</p>
+            </div>
+
+            <div id="chart2"></div>
+
+        </div>
+        
+        <!-- Load external JavaScript -->
+        <script src="scripts.js"></script>
+        
+    </body>
+
+</html>

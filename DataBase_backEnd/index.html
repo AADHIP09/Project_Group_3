@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>API Call with jQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+    <script>
+        $(document).ready(function() {
+          // Function to make the AJAX request
+          function fetchData() {
+            $.ajax({
+              url: 'http://127.0.0.1:5000/movies',  // Replace with the actual URL of your Flask API
+              type: 'GET',
+              dataType: 'json',
+              success: function(data) {
+                // Handle the response data here
+                console.log(data);
+      
+                // You can update your webpage with the data
+                // For example, if you have a div with the id "result":
+                // $('#result').text(JSON.stringify(data));
+              },
+              error: function(error) {
+                // Handle any errors that occur during the request
+                console.error('Error:', error);
+              }
+            });
+          }
+      
+          // Call the fetchData function when a button is clicked
+          $('#fetch-button').click(function() {
+            fetchData();
+          });
+        });
+      </script>
+</body>
+</html>
