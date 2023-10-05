@@ -1,4 +1,4 @@
-## Project Title: An Analysis of the Top 250 Movies on IMD 
+## Project Title: An Analysis of the Top 250 Movies on IMDB
 ### Team number: Group 3
 ### Team Members: Lydia Zuo, Aadhithya Prakash, Daryl Pinto, Supreet Ahuja
 ### Task Distribution
